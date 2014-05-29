@@ -1,0 +1,210 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: 400;
+  color: #000;
+  height: 100%;
+  font-family: 'Inconsolata', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 5px;
+}
+/*body {
+	font-family: 'Inconsolata', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 5px;
+	width: 100%;
+
+}
+*/
+
+header{
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	position: fixed;
+	z-index: 2;
+}
+
+header li {
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+li {
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+}
+
+ol {
+	text-align: center;
+}
+
+#A {
+	text-decoration: underline;
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	top: 50%;
+}
+
+a {
+	text-decoration: none;
+        color: white;
+        text-decoration: none;
+}
+
+a:hover {
+       text-decoration: underline;
+}
+.key2 {
+	position: absolute;
+	color: white;
+	margin-left: 6%;
+	top: 26%;
+	
+}
+
+#twit-pic {
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+
+
+
+a #twitter {
+	background-color: black;
+	height: 32px;
+	width: 110px;
+	border-radius: 6px;
+	position: relative;
+	margin-left: 46%;
+	top: 159px;
+	z-index: 1;
+}
+
+#twitter:hover{
+	opacity: .8;
+}
+
+
+a #email {
+	background-color: black;
+	height: 32px;
+	width: 110px;
+	border-radius: 6px;
+	position: relative;
+	margin-left: 46%;
+	top: 159px;
+	z-index: 1;
+}
+
+#email:hover{
+	opacity: .8;
+}
+
+img[src="email.png"] {
+	position: relative;
+	top: 2px;
+
+}
+
+.key3 {
+	position: absolute;
+	color: white;
+	margin-left: 6%;
+	top: 20%;
+
+	
+}
+
+
+img[src="zack.jpg"] {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 3px solid white;
+	margin-top: 100px;
+	left: 44.5%;
+	position: absolute;
+
+}
+
+.rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+ 
+    }  
+ 
+.rotate:hover  {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}  
+
+p[id="brackets"] {
+	font-size: 100px;
+	left: 43%;
+	position: absolute;
+	margin-top: 100px;
+	
+
+}
+
+
+div {
+	height: 350px;
+	width: 100%;
+}
+
+#teal1 {
+	background: #1CF9D4;
+}
+
+#teal2 {
+	background: #1DE4DB;
+}
+
+#teal3 {
+	background: #1FD0E2;
+}
+
+#blue1 {
+	background: #20BBE9;
+}
+
+#blue2 {
+	background: #22A7F0;
+}
+
+#blue3 {
+	background: #2392F7;
+}
+
+#purple1 {
+	background: #4F87DC;
+}
+
+#purple2 {
+	background: #727EC7;
+}
+
+#red1 {
+	background: #DC6387;
+}

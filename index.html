@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+		<link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<meta name="description" content="Hi. I'm Zack. I like to code and build things.">
+		<meta name="viewport" content="width=500, initial-scale=1">
+		<link href="favicon.ico" rel="icon" type="image/ico" />
+		<link href="favicon.ico" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="meyer-reset.css">
+		<link rel="stylesheet" href="css_animate.css">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		
+		<title>Zack Fisch</title>
+	</head>
+
+	<script>
+	$(window).scroll(function() {
+		$('#brackets').each(function(){
+		var imagePos = $(this).offset().top;
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+600) {
+				$(this).addClass("floating");
+			}
+		});
+	});
+	</script>
+
+
+	<body>
+
+		<header>
+			<nav>
+				<ol>
+					<li id="A"><a href="index.html">About</a></li>
+					<li><a href="https://medium.com/@ZFiscr" target="_blank">Blog</a></li>
+				</ol>
+			</nav>
+		</header>
+
+		<div id="teal1">
+			<h1 class="text">Zack Fisch</h1>
+		</div>
+
+		<div id="teal2">
+			<h1>Web Developer in Training</h1>
+		</div>
+
+		<div id="teal3">
+			<h1>Startup Founder @ <a href="http://www.speakme.com">Speakme</a></h1>
+		</div>
+
+		<div id="blue1">
+			<h1>Born and based in Toronto, Canada</h1>
+		</div>
+
+		<div id="blue2">
+			<h1>Enjoys <a href="https://github.com/Jenksz" target="_blank">coding</a>, astronomy, and a good book</h1>
+		</div>
+
+		<div id="blue3">
+			<a href="https://twitter.com/ZFiscr" target="_blank">
+				<div id="twitter">
+					<img src="twitter.png" id="twit-pic"><span class="key2">zfiscr</span>
+				</div>
+			</a>
+		</div>
+
+		<div id="purple1">
+			<a href="mailto:zack@zfisch.com" target="_blank">
+				<div id="email">
+					<img src="email.png"><span class="key3">Say hi</span>
+				</div>
+			</a>
+		</div>
+
+		<div id="purple2">
+			<img class="rotate" src="zack.jpg">
+		</div>
+			
+		<div id="red1">
+			<p id="brackets" class="floating">< /></p>
+		</div>
+
+	</body>
+
+
+
+</html>
