@@ -132,8 +132,6 @@ img[src="zack.jpg"] {
 	border-radius: 50%;
 	border: 3px solid white;
 	margin-top: 100px;
-	left: 44.5%;
-	position: absolute;
 
 }
 
@@ -158,19 +156,24 @@ img[src="zack.jpg"] {
     -o-transform:rotate(360deg);
 }  
 
-p[id="brackets"] {
-	font-size: 100px;
-	left: 43%;
-	position: absolute;
-	margin-top: 100px;
-	
 
+/*
+.center {
+	width: 200px;
+	height: 200px;
 }
 
+p[id="brackets"] {
+	font-size: 100px;
+	margin-top: 100px;
+	position: absolute;
+}
+*/
 
 div {
 	height: 350px;
 	width: 100%;
+	font-size
 }
 
 #teal1 {
@@ -202,9 +205,12 @@ div {
 }
 
 #purple2 {
+	text-align: center;
 	background: #727EC7;
 }
 
+/*
 #red1 {
 	background: #DC6387;
 }
+*/
