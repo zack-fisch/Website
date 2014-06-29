@@ -1,27 +1,61 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  font-weight: 400;
-  color: #000;
-  height: 100%;
-  font-family: 'Inconsolata', sans-serif;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 5px;
-}
-/*body {
-	font-family: 'Inconsolata', sans-serif;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-size: 5px;
-	width: 100%;
-
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
-header{
-	top: 0px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Meyer Reset */
+
+body {
+  width: 100%;
+  font-family: 'Inconsolata', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+header {
 	width: 100%;
 	height: 40px;
 	background-color: black;
@@ -30,18 +64,18 @@ header{
 }
 
 header li {
-	margin-right: 20px;
+	margin-right: 1rem;
 	margin-top: 10px;
 }
 
 li {
-	color: white;
-	list-style-type: none;
 	display: inline-block;
 }
 
 ol {
 	text-align: center;
+	color: white;
+	list-style-type: none;
 }
 
 #A {
@@ -56,19 +90,18 @@ h1 {
 
 a {
 	text-decoration: none;
-        color: white;
-        text-decoration: none;
+  color: white;
 }
 
 a:hover {
-       text-decoration: underline;
+  text-decoration: underline;
 }
+
 .key2 {
 	position: absolute;
 	color: white;
 	margin-left: 6%;
 	top: 26%;
-	
 }
 
 #twit-pic {
@@ -77,33 +110,32 @@ a:hover {
 	position: relative;
 }
 
-
-
-a #twitter {
+#twitter {
 	background-color: black;
-	height: 32px;
-	width: 110px;
+	height: 2rem;
+	width: 7rem;
 	border-radius: 6px;
-	position: relative;
-	margin-left: 46%;
-	top: 159px;
-	z-index: 1;
+	position: absolute;
+	left: 50%;
+	margin-left: -3.5rem;
+	top: 50%;
+	margin-top: -1rem;
 }
 
 #twitter:hover{
 	opacity: .8;
 }
 
-
-a #email {
+#email {
 	background-color: black;
-	height: 32px;
-	width: 110px;
+	height: 2rem;
+	width: 7rem;
 	border-radius: 6px;
-	position: relative;
-	margin-left: 46%;
-	top: 159px;
-	z-index: 1;
+	position: absolute;
+	left: 50%;
+	margin-left: -3.5rem;
+	top: 50%;
+	margin-top: -1rem;
 }
 
 #email:hover{
@@ -121,18 +153,18 @@ img[src="email.png"] {
 	color: white;
 	margin-left: 6%;
 	top: 20%;
-
-	
 }
-
 
 img[src="zack.jpg"] {
 	height: 150px;
 	width: 150px;
-	border-radius: 50%;
 	border: 3px solid white;
-	margin-top: 100px;
-
+	position: absolute;
+	right: 50%;
+	margin-right: -75px;
+	top: 50%;
+	margin-top: -75px;
+	border-radius: 50%;
 }
 
 .rotate{
@@ -147,7 +179,6 @@ img[src="zack.jpg"] {
     transition-property: transform;
      
     overflow:hidden;
- 
     }  
  
 .rotate:hover  {
@@ -156,24 +187,9 @@ img[src="zack.jpg"] {
     -o-transform:rotate(360deg);
 }  
 
-
-/*
-.center {
-	width: 200px;
-	height: 200px;
-}
-
-p[id="brackets"] {
-	font-size: 100px;
-	margin-top: 100px;
-	position: absolute;
-}
-*/
-
 div {
 	height: 350px;
 	width: 100%;
-	font-size
 }
 
 #teal1 {
@@ -198,19 +214,15 @@ div {
 
 #blue3 {
 	background: #2392F7;
+	position: relative;
 }
 
 #purple1 {
 	background: #4F87DC;
+	position: relative;
 }
 
 #purple2 {
-	text-align: center;
 	background: #727EC7;
+	position: relative;
 }
-
-/*
-#red1 {
-	background: #DC6387;
-}
-*/
