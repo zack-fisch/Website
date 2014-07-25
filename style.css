@@ -78,10 +78,6 @@ ol {
 	list-style-type: none;
 }
 
-#A {
-	text-decoration: underline;
-}
-
 h1 {
 	text-align: center;
 	position: relative;
@@ -188,7 +184,7 @@ img[src="zack.jpg"] {
 }  
 
 div {
-	height: 350px;
+	height: 21.875rem;
 	width: 100%;
 }
 
@@ -225,4 +221,26 @@ div {
 #purple2 {
 	background: #727EC7;
 	position: relative;
+}
+
+.image {
+
+	display: block;
+	height: 15.625rem;
+	width: 31.25rem;
+	margin: 0 auto;
+	padding-top: 5rem;
+}
+
+h1.project-header {
+	top: 0;
+	margin-bottom: 1rem;
+}
+
+a.project-link {
+	color: black;
+}
+
+a.project-link:hover {
+	text-decoration: underline;
 }
